@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="Search city" spellcheck="false">
+            <button><i class="bi bi-search"></i></button><br>
+            <div>
+            <ul id="suggestions"></ul></div>
+        </div>
+
+        <div class="weather">
+            <div class="head">
+                <div class="text">
+                <div class="item">
+                    <img src="longitude.png" class="temperature1">
+                    <p class="longitude">Longitude</p>
+                </div>
+                <div class="img">
+            <img src="p1.png" alt="weather icon" class="w1">
+                    </div>
+                <div class="item">
+                    <img src="latitude.png" class="temperature1">
+                    <p class="latitude">Latitude</p>
+                </div>
+            </div>
+            </div>
+            <!-- <div class="text">
+            <div class="rotate-text">
+                <img src="longitude.png" alt="" class="temperature1">
+                <p>Longitude</p></div>
+            <div class="rotate-text1">
+                <img src="latitude.png" alt="" class="temperature1"><p>Latitude</p></div>
+            </div> -->
+
+            <div class="FC">
+            <h1 class="temp">0°C</h1> 
+            <div class="toggle-container">
+                <input type="checkbox" id="toggleUnit">
+                <label for="toggleUnit" class="toggle"></label>
+            </div>
+            </div>
+            
+            <h2 class="city">City Name</h2>
+            <p class="Weather"></p>
+            <h4 class="date"></h4>
+            <!-- <p> 5 Days weather forecast</p> -->
+            <h3 class="days">5 Days Weather Forecast</h3>
+            <div class="forecast" ></div>
+
+            <div class="details">
+                <div class="col">
+                    <i class="bi bi-water"></i>
+                    <div>
+                        <p class="humidity">%</p>
+                        <p1>Humidity</p1>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <i class="bi bi-wind"></i>
+                    <div>
+                        <p class="wind-speed">km/h</p>
+                        <p1>Wind Speed</p1>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="high-temperature.png" alt="" class="temperature">
+                    <!-- <i class="bi bi-arrow-up"></i> -->
+                    <div>
+                        <p class="max-temp">0°C</p>
+                        <p1>Max-temp</p1>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="temperature-sensor.png" alt="" class="temperature">
+                    <!-- <i class="bi bi-arrow-down"></i> -->
+                    <div>
+                        <p class="min-temp">0°C</p>
+                        <p1>Min-temp</p1>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="depth.png" alt="" class="temperature">
+                    <!-- <i class="bi bi-geo-alt"></i> -->
+                    <div>
+                        <p class="groundlevel">hpa</p>
+                        <p1>Ground Level</p1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="Search city" >
+            <button> <i class="bi bi-search"></i></button>
+        </div>
+            <div class="weather">
+                    <img src="p1.jpg" alt="" class="w1">
+                    <h1 class="temp">22°C</h1> 
+                    <h2 class="city"> Singapore</h2>
+                    <div class="details">
+                        <div class="col">
+                            <i class="bi bi-water"></i>
+                            <div>
+                                <p class="humidity"> 50%</p>
+                                <p> Humidity</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <i class="bi bi-wind"></i>
+                            <div>
+                                <p class="wind-speed"> 5 km/h</p>
+                                <p> Wind-speed</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <script src="script.js"></script>
+    </div>
+</body>
+</html> -->
